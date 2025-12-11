@@ -11,7 +11,8 @@
     "jtest": "node test/joinRoomTests.js",
     "btest": "cd test/browser && npm start",
     "utest": "node unit_tests/test_node.js",
-    "webExamples": "cd examples_web && serve src"
+    "webExamples": "cd examples_web && serve src",
+    start: "node hax_target_practice.js"
   },
   "author": "wxyz-abcd <mail.api.test.1.1.1@gmail.com>",
   "keywords": [
@@ -49,3 +50,4 @@
     "https-proxy-agent": "^7.0.6"
   }
 }
+
