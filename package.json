@@ -1,0 +1,16 @@
+{
+  "name": "target_prac_node",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "hax_target_practice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node hax_target_practice.js"
+  },
+  "dependencies": {
+    "haxball.js": "^3.2.1"
+  }
+}
