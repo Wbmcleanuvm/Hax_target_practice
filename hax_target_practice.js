@@ -3,13 +3,13 @@ const HaxballJS = require('haxball.js');
 
 HaxballJS().then((HBInit) => {
 
-const stadium = '{ "name": "Tumbles AimTrain", "width": 400, "height": 250, "cameraWidth": 0, "cameraHeight": 0, "maxViewWidth": 0, "cameraFollow": "ball", "spawnDistance": 200, "redSpawnPoints": [], "blueSpawnPoints": [], "canBeStored": true, "kickOffReset": "partial", "bg": { "color": "1D2431", "type": "none", "cornerRadius": 0, "kickOffRadius": 0 }, "traits": { "ballArea": { "vis": false, "bCoef": 1, "cMask": [ "ball" ] }, "goalPost": { "radius": 8, "invMass": 0, "bCoef": 0.5 }, "goalNet": { "vis": true, "bCoef": 0.1, "cMask": [ "ball" ] }, "kickOffBarrier": { "vis": false, "bCoef": 0.1, "cGroup": [ "redKO", "blueKO" ], "cMask": [ "red", "blue" ] } }, "vertexes": [ { "x": -347, "y": 131, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "x": 349, "y": 131, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "x": -174, "y": 168, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "x": -176, "y": 147, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "x": -196, "y": 146, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "x": -164, "y": 144, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "x": -151, "y": 144, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "x": -122, "y": 145, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "x": -109, "y": 167, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "x": -80, "y": 167, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "x": -52, "y": 165, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "x": -31, "y": 154, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "x": -31, "y": 168, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "x": -36, "y": 147, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "x": -7, "y": 145, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "x": -1, "y": 168, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "x": 10, "y": 162, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "x": 45, "y": 158, "cMask": [ "all" ], "cGroup": [ "c0" ], "curve": 0 }, { "x": 35, "y": 171, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "x": 26, "y": 157, "cMask": [ "all" ], "cGroup": [ "c0" ], "curve": 0 }, { "x": -347, "y": -135, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "x": 349, "y": -135, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "x": -121.00049793426291, "y": -137.0004979342629, "cMask": [ "red" ], "cGroup": [ "red" ], "color": "9598A3", "curve": 0 }, { "x": -120, "y": 129, "cMask": [ "red" ], "cGroup": [ "red" ], "color": "9598A3", "curve": 0 }, { "x": 349, "y": -135, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "x": -347, "y": -135, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "x": 347, "y": 131, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "x": 347, "y": -135, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "x": -347, "y": 129, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "x": 349, "y": 129, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "x": -345, "y": 131, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "x": -345, "y": -135, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "x": -165.1277818591839, "y": -9.335846324194142, "cMask": [ "c0" ], "cGroup": [ "c0" ], "color": "9598A3" }, { "x": -165.1277818591839, "y": 9.33584632419414, "cMask": [ "c0" ], "cGroup": [ "c0" ], "color": "9598A3" }, { "x": 354.5, "y": 131, "cMask": [ "all" ], "cGroup": [ "all" ], "color": "1D2431" }, { "x": 354.5, "y": -135, "cMask": [ "all" ], "cGroup": [ "all" ], "color": "1D2431" }, { "x": -347, "y": 136.5, "cMask": [ "all" ], "cGroup": [ "all" ], "color": "1D2431" }, { "x": 349, "y": 136.5, "cMask": [ "all" ], "cGroup": [ "all" ], "color": "1D2431" }, { "x": -350.5, "y": 131, "cMask": [ "all" ], "cGroup": [ "all" ], "color": "1D2431" }, { "x": -350.5, "y": -135, "cMask": [ "all" ], "cGroup": [ "all" ], "color": "1D2431" }, { "x": -271, "y": -19, "cMask": [ "c0" ], "cGroup": [ "c0" ], "color": "538C37" }, { "x": -259, "y": -31, "cMask": [ "c0" ], "cGroup": [ "c0" ], "color": "538C37" }, { "x": -270, "y": -21, "cMask": [ "c0" ], "cGroup": [ "c0" ], "color": "538C37" }, { "x": -259, "y": -31, "cMask": [ "c0" ], "cGroup": [ "c0" ], "color": "538C37" }, { "x": -245, "y": -21, "cMask": [ "c0" ], "cGroup": [ "c0" ], "color": "538C37" }, { "x": -258, "y": 7, "cMask": [ "c0" ], "cGroup": [ "c0" ], "color": "538C37" }, { "x": -171, "y": 51, "cMask": [ "c0" ], "cGroup": [ "c0" ] } ], "segments": [ { "v0": 0, "v1": 1, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "v0": 2, "v1": 3, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "v0": 4, "v1": 5, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "v0": 6, "v1": 7, "curve": -237.67100169548618, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "v0": 8, "v1": 9, "curve": 198.6606959150396, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "v0": 9, "v1": 10, "curve": 200.12137959064583, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "v0": 11, "v1": 12, "curve": 250.08385880307807, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "v0": 13, "v1": 12, "curve": 0, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "v0": 14, "v1": 15, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "v0": 15, "v1": 16, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "v0": 17, "v1": 18, "curve": -261.16025772229057, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "v0": 17, "v1": 19, "curve": 0, "cMask": [ "all" ], "cGroup": [ "c0" ] }, { "v0": 20, "v1": 21, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "v0": 21, "v1": 1, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "v0": 22, "v1": 23, "curve": 0, "color": "9598A3", "cMask": [ "red" ], "cGroup": [ "red" ], "x": -120 }, { "v0": 30, "v1": 31, "cMask": [ "all" ], "cGroup": [ "all" ], "x": -345 }, { "v0": 32, "v1": 33, "curve": 236.2807119392343, "color": "9598A3", "cMask": [ "c0" ], "cGroup": [ "c0" ] }, { "v0": 40, "v1": 41, "curve": 321.80821829510603, "color": "538C37", "cMask": [ "c0" ], "cGroup": [ "c0" ] }, { "v0": 43, "v1": 44, "curve": 322.21885667963187, "color": "538C37", "cMask": [ "c0" ], "cGroup": [ "c0" ] }, { "v0": 42, "v1": 45, "curve": -278.0784769353757, "color": "538C37", "cMask": [ "c0" ], "cGroup": [ "c0" ] }, { "v0": 45, "v1": 44, "curve": -273.36113530062744, "color": "538C37", "cMask": [ "c0" ], "cGroup": [ "c0" ] }, { "v0": 45, "v1": 46, "curve": -92.86612813465219, "color": "538C37", "cMask": [ "c0" ], "cGroup": [ "c0" ] } ], "goals": [], "discs": [ { "invMass": 0, "pos": [ 20, 32 ], "cMask": [ "all" ], "cGroup": [ "c0" ] } ], "planes": [ { "normal": [ 0, -1 ], "dist": -131.76000000000002, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "normal": [ 0, 1 ], "dist": -135.98118630822498, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "normal": [ 1, 0 ], "dist": -348.84000000000003, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "normal": [ -1, 0 ], "dist": -351.00000000000006, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "normal": [ 0, -1 ], "dist": -131.76000000000002, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "normal": [ 0, 1 ], "dist": -135.98118630822498, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "normal": [ 1, 0 ], "dist": -348.84000000000003, "cMask": [ "all" ], "cGroup": [ "all" ] }, { "normal": [ -1, 0 ], "dist": -351.00000000000006, "cMask": [ "all" ], "cGroup": [ "all" ] } ], "joints": [], "playerPhysics": { "radius": 15, "bCoef": 0.5, "invMass": 0.5, "damping": 0.96, "cGroup": [ "all" ], "acceleration": 0.1, "gravity": [ 0, 0 ], "kickingAcceleration": 0.07, "kickingDamping": 0.96, "kickStrength": 5, "kickback": 0 }, "ballPhysics": { "radius": 5.8, "bCoef": 0.412, "cMask": [ "all" ], "invMass": 1.55, "gravity": [ 0, 0 ], "color": "FFA500", "cGroup": [ "ball" ], "pos": [ -120, 0 ], "damping": 0.99 } }';
+const stadium = '{ "name" : "Tumbles AimTrain", "width" : 400, "height" : 250, "cameraWidth" : 0, "cameraHeight" : 0, "maxViewWidth" : 0, "cameraFollow" : "ball", "spawnDistance" : 200, "redSpawnPoints" : [ ], "blueSpawnPoints" : [ ], "canBeStored" : true, "kickOffReset" : "partial", "bg" : { "color" : "1D2431", "type" : "none", "cornerRadius" : 0, "kickOffRadius" : 0 }, "traits" : { "ballArea" : { "vis" : false, "bCoef" : 1, "cMask" : ["ball" ] }, "goalPost" : { "radius" : 8, "invMass" : 0, "bCoef" : 0.5 }, "goalNet" : { "vis" : true, "bCoef" : 0.1, "cMask" : ["ball" ] }, "kickOffBarrier" : { "vis" : false, "bCoef" : 0.1, "cGroup" : ["redKO","blueKO" ], "cMask" : ["red","blue" ] } }, "vertexes" : [ /* 0 */ { "x" : -347, "y" : 131, "cMask" : ["all" ], "cGroup" : ["all" ] }, /* 1 */ { "x" : 349, "y" : 131, "cMask" : ["all" ], "cGroup" : ["all" ] }, /* 2 */ { "x" : -174, "y" : 168, "cMask" : ["all" ], "cGroup" : ["c0" ] }, /* 3 */ { "x" : -176, "y" : 147, "cMask" : ["all" ], "cGroup" : ["c0" ] }, /* 4 */ { "x" : -196, "y" : 146, "cMask" : ["all" ], "cGroup" : ["c0" ] }, /* 5 */ { "x" : -164, "y" : 144, "cMask" : ["all" ], "cGroup" : ["c0" ] }, /* 6 */ { "x" : -151, "y" : 144, "cMask" : ["all" ], "cGroup" : ["c0" ] }, /* 7 */ { "x" : -122, "y" : 145, "cMask" : ["all" ], "cGroup" : ["c0" ] }, /* 8 */ { "x" : -109, "y" : 167, "cMask" : ["all" ], "cGroup" : ["c0" ] }, /* 9 */ { "x" : -80, "y" : 167, "cMask" : ["all" ], "cGroup" : ["c0" ] }, /* 10 */ { "x" : -52, "y" : 165, "cMask" : ["all" ], "cGroup" : ["c0" ] }, /* 11 */ { "x" : -31, "y" : 154, "cMask" : ["all" ], "cGroup" : ["c0" ] }, /* 12 */ { "x" : -31, "y" : 168, "cMask" : ["all" ], "cGroup" : ["c0" ] }, /* 13 */ { "x" : -36, "y" : 147, "cMask" : ["all" ], "cGroup" : ["c0" ] }, /* 14 */ { "x" : -7, "y" : 145, "cMask" : ["all" ], "cGroup" : ["c0" ] }, /* 15 */ { "x" : -1, "y" : 168, "cMask" : ["all" ], "cGroup" : ["c0" ] }, /* 16 */ { "x" : 10, "y" : 162, "cMask" : ["all" ], "cGroup" : ["c0" ] }, /* 17 */ { "x" : 45, "y" : 158, "cMask" : ["all" ], "cGroup" : ["c0" ], "curve" : 0 }, /* 18 */ { "x" : 35, "y" : 171, "cMask" : ["all" ], "cGroup" : ["c0" ] }, /* 19 */ { "x" : 26, "y" : 157, "cMask" : ["all" ], "cGroup" : ["c0" ], "curve" : 0 }, /* 20 */ { "x" : -347, "y" : -135, "cMask" : ["all" ], "cGroup" : ["all" ] }, /* 21 */ { "x" : 349, "y" : -135, "cMask" : ["all" ], "cGroup" : ["all" ] }, /* 22 */ { "x" : -121.00049793426291, "y" : -137.0004979342629, "cMask" : ["red" ], "cGroup" : ["red" ], "color" : "9598A3", "curve" : 0 }, /* 23 */ { "x" : -120, "y" : 129, "cMask" : ["red" ], "cGroup" : ["red" ], "color" : "9598A3", "curve" : 0 }, /* 24 */ { "x" : 349, "y" : -135, "cMask" : ["all" ], "cGroup" : ["all" ] }, /* 25 */ { "x" : -347, "y" : -135, "cMask" : ["all" ], "cGroup" : ["all" ] }, /* 26 */ { "x" : 347, "y" : 131, "cMask" : ["all" ], "cGroup" : ["all" ] }, /* 27 */ { "x" : 347, "y" : -135, "cMask" : ["all" ], "cGroup" : ["all" ] }, /* 28 */ { "x" : -347, "y" : 129, "cMask" : ["all" ], "cGroup" : ["all" ] }, /* 29 */ { "x" : 349, "y" : 129, "cMask" : ["all" ], "cGroup" : ["all" ] }, /* 30 */ { "x" : -345, "y" : 131, "cMask" : ["all" ], "cGroup" : ["all" ] }, /* 31 */ { "x" : -345, "y" : -135, "cMask" : ["all" ], "cGroup" : ["all" ] }, /* 32 */ { "x" : -165.1277818591839, "y" : -9.335846324194142, "cMask" : ["c0" ], "cGroup" : ["c0" ], "color" : "9598A3" }, /* 33 */ { "x" : -165.1277818591839, "y" : 9.33584632419414, "cMask" : ["c0" ], "cGroup" : ["c0" ], "color" : "9598A3" }, /* 34 */ { "x" : 354.5, "y" : 131, "cMask" : ["all" ], "cGroup" : ["all" ], "color" : "1D2431" }, /* 35 */ { "x" : 354.5, "y" : -135, "cMask" : ["all" ], "cGroup" : ["all" ], "color" : "1D2431" }, /* 36 */ { "x" : -347, "y" : 136.5, "cMask" : ["all" ], "cGroup" : ["all" ], "color" : "1D2431" }, /* 37 */ { "x" : 349, "y" : 136.5, "cMask" : ["all" ], "cGroup" : ["all" ], "color" : "1D2431" }, /* 38 */ { "x" : -350.5, "y" : 131, "cMask" : ["all" ], "cGroup" : ["all" ], "color" : "1D2431" }, /* 39 */ { "x" : -350.5, "y" : -135, "cMask" : ["all" ], "cGroup" : ["all" ], "color" : "1D2431" }, /* 40 */ { "x" : -271, "y" : -19, "cMask" : ["c0" ], "cGroup" : ["c0" ], "color" : "538C37" }, /* 41 */ { "x" : -259, "y" : -31, "cMask" : ["c0" ], "cGroup" : ["c0" ], "color" : "538C37" }, /* 42 */ { "x" : -270, "y" : -21, "cMask" : ["c0" ], "cGroup" : ["c0" ], "color" : "538C37" }, /* 43 */ { "x" : -259, "y" : -31, "cMask" : ["c0" ], "cGroup" : ["c0" ], "color" : "538C37" }, /* 44 */ { "x" : -245, "y" : -21, "cMask" : ["c0" ], "cGroup" : ["c0" ], "color" : "538C37" }, /* 45 */ { "x" : -258, "y" : 7, "cMask" : ["c0" ], "cGroup" : ["c0" ], "color" : "538C37" }, /* 46 */ { "x" : -171, "y" : 51, "cMask" : ["c0" ], "cGroup" : ["c0" ] } ], "segments" : [ { "v0" : 0, "v1" : 1, "cMask" : ["all" ], "cGroup" : ["all" ] }, { "v0" : 2, "v1" : 3, "cMask" : ["all" ], "cGroup" : ["c0" ] }, { "v0" : 4, "v1" : 5, "cMask" : ["all" ], "cGroup" : ["c0" ] }, { "v0" : 6, "v1" : 7, "curve" : -237.67100169548618, "cMask" : ["all" ], "cGroup" : ["c0" ] }, { "v0" : 8, "v1" : 9, "curve" : 198.6606959150396, "cMask" : ["all" ], "cGroup" : ["c0" ] }, { "v0" : 9, "v1" : 10, "curve" : 200.12137959064583, "cMask" : ["all" ], "cGroup" : ["c0" ] }, { "v0" : 11, "v1" : 12, "curve" : 250.08385880307807, "cMask" : ["all" ], "cGroup" : ["c0" ] }, { "v0" : 13, "v1" : 12, "curve" : 0, "cMask" : ["all" ], "cGroup" : ["c0" ] }, { "v0" : 14, "v1" : 15, "cMask" : ["all" ], "cGroup" : ["c0" ] }, { "v0" : 15, "v1" : 16, "cMask" : ["all" ], "cGroup" : ["c0" ] }, { "v0" : 17, "v1" : 18, "curve" : -261.16025772229057, "cMask" : ["all" ], "cGroup" : ["c0" ] }, { "v0" : 17, "v1" : 19, "curve" : 0, "cMask" : ["all" ], "cGroup" : ["c0" ] }, { "v0" : 20, "v1" : 21, "cMask" : ["all" ], "cGroup" : ["all" ] }, { "v0" : 21, "v1" : 1, "cMask" : ["all" ], "cGroup" : ["all" ] }, { "v0" : 22, "v1" : 23, "curve" : 0, "color" : "9598A3", "cMask" : ["red" ], "cGroup" : ["red" ], "x" : -120 }, { "v0" : 30, "v1" : 31, "cMask" : ["all" ], "cGroup" : ["all" ], "x" : -345 }, { "v0" : 32, "v1" : 33, "curve" : 236.2807119392343, "color" : "9598A3", "cMask" : ["c0" ], "cGroup" : ["c0" ] }, { "v0" : 40, "v1" : 41, "curve" : 321.80821829510603, "color" : "538C37", "cMask" : ["c0" ], "cGroup" : ["c0" ] }, { "v0" : 43, "v1" : 44, "curve" : 322.21885667963187, "color" : "538C37", "cMask" : ["c0" ], "cGroup" : ["c0" ] }, { "v0" : 42, "v1" : 45, "curve" : -278.0784769353757, "color" : "538C37", "cMask" : ["c0" ], "cGroup" : ["c0" ] }, { "v0" : 45, "v1" : 44, "curve" : -273.36113530062744, "color" : "538C37", "cMask" : ["c0" ], "cGroup" : ["c0" ] }, { "v0" : 45, "v1" : 46, "curve" : -92.86612813465219, "color" : "538C37", "cMask" : ["c0" ], "cGroup" : ["c0" ] } ], "goals" : [ ], "discs" : [ { "invMass" : 0, "pos" : [20,32 ], "cMask" : ["all" ], "cGroup" : ["c0" ] }, { "radius" : 5.5, "invMass" : 0, "pos" : [20,50 ], "cMask" : ["all" ], "cGroup" : ["c0" ] } ], "planes" : [ { "normal" : [0,-1 ], "dist" : -131.76000000000002, "cMask" : ["all" ], "cGroup" : ["all" ] }, { "normal" : [0,1 ], "dist" : -135.98118630822498, "cMask" : ["all" ], "cGroup" : ["all" ] }, { "normal" : [1,0 ], "dist" : -348.84000000000003, "cMask" : ["all" ], "cGroup" : ["all" ] }, { "normal" : [-1,0 ], "dist" : -351.00000000000006, "cMask" : ["all" ], "cGroup" : ["all" ] }, { "normal" : [0,-1 ], "dist" : -131.76000000000002, "cMask" : ["all" ], "cGroup" : ["all" ] }, { "normal" : [0,1 ], "dist" : -135.98118630822498, "cMask" : ["all" ], "cGroup" : ["all" ] }, { "normal" : [1,0 ], "dist" : -348.84000000000003, "cMask" : ["all" ], "cGroup" : ["all" ] }, { "normal" : [-1,0 ], "dist" : -351.00000000000006, "cMask" : ["all" ], "cGroup" : ["all" ] } ], "joints" : [ ], "playerPhysics" : { "radius" : 15, "bCoef" : 0.5, "invMass" : 0.5, "damping" : 0.96, "cGroup" : [ "all" ], "acceleration" : 0.1, "gravity" : [ 0, 0 ], "kickingAcceleration" : 0.07, "kickingDamping" : 0.96, "kickStrength" : 5, "kickback" : 0 }, "ballPhysics" : { "radius" : 5.8, "bCoef" : 0.412, "cMask" : [ "all" ], "invMass" : 1.55, "gravity" : [ 0, 0 ], "color" : "FFA500", "cGroup" : [ "ball" ], "pos" : [ -120, 0 ], "damping" : 0.99 } }';
 const roomName = "🍀tumbles AimTrain🍀";
 const botName = "tumbot";
 const maxPlayers = 6;
 const roomPublic = true;
 const loc = { "code": "us", "lat": 40.74, "lon": -73.98 };
-let token = "thr1.AAAAAGlAUKonZLUWP2AxYw.DvwmncwTxNw";
+let token = "thr1.AAAAAGlA0DBHwtL_lkWYyw.Fg0cYQp1iDw";
 
 const room = HBInit({roomName: roomName, maxPlayers: maxPlayers, public: roomPublic, playerName: botName, token: token, geo: loc});
 
@@ -20,12 +20,14 @@ let streak = 0;
 let ticks = 0;
 let topstreak = 0;
 let misses = 0;
+let perfectShot = 0;
 var cf = room.CollisionFlags;
 var players;
 var teamS;
 var teamR;
+var bullseye = false;
 var highScore = [[41,"korai"],[39,"motion"],[0,0]];
-var highStreak = [[30, "mute"],[0,0],[0,0]];
+var highStreak = [[30, "mute"],[18,"Aguero"],[0,0]];
 const Team = { SPECTATORS: 0, RED: 1, BLUE: 2 };
 var gameTimerResolve = null;
 var afkResolve = null;
@@ -43,24 +45,25 @@ room.onGameTick = function (){
                 addTargetObject();
                 resetPlayer();
                 streak = 0;
-                ticks = 0;
-                misses += 1;
+                if (ticks > 1) misses += 1;
+                ticks = 0;       
             }
             if(checkOnTarget()){
                 resetBall();
                 addTargetObject();
                 resetPlayer();
-            if(ticks > 1){
-                score += 1;
-                streak += 1;
-                if (streak > topstreak) topstreak = streak;
-                if(score % 5 == 0){ 
-                    room.sendChat("Current score: " + score + ", Streak: " + streak + ", Misses: " + misses);
-                }else{
-                    room.sendChat("Current score: " + score + ", Streak: " + streak, teamR[0].id);
-                }
+                if(ticks > 1){
+                    if (bullseye) perfectShot += 1;
+                    score += 1;
+                    streak += 1;
+                    if (streak > topstreak) topstreak = streak;
+                    if(score % 5 == 0){ 
+                        room.sendChat("Current score: " + score + ", Streak: " + streak + ", Misses: " + misses);
+                    }else{
+                        room.sendChat(("Current score: " + score + ", Streak: " + streak + ", Misses: " + misses), teamR[0].id);
+                    }
                 
-            }
+                }
                 ticks = 0;
             }
         ticks += 1;
@@ -264,11 +267,12 @@ async function startGame() {
             i = 10;
         }
     }
-    room.sendChat("Game over! Score: "  + score + ", Top streak: " + topstreak);
+    room.sendChat("Game over! Score: "  + score + ", Top streak: " + topstreak + ", Misses: " + misses);
     redToSpecBtn();
     score = 0;
     streak = 0;
     misses = 0;
+    perfectShot = 0;
     topstreak = 0;
     room.stopGame();
     gameTimerResolve = null;
@@ -278,18 +282,20 @@ async function startGame() {
 function checkOnTarget(){
     let ballPos = room.getBallPosition();
     let targetPos = room.getDiscProperties(1);
+    let smallTarget = room.getDiscProperties(2);
     let dx = ballPos.x - targetPos.x;
     let dy = ballPos.y - targetPos.y;
     let distance = Math.sqrt(dx * dx + dy * dy);
     
     let targetRadius = targetPos.radius;
-    
+
+    bullseye = distance <= (smallTarget.radius + 5.5);
     // Check if they're overlapping
     return distance <= (targetRadius + 5.5);
 }
 
 function resetPlayer(){
-    room.setDiscProperties(2,{
+    room.setDiscProperties(3,{
         x: -200,
         y: 0,
         xspeed: 0,
@@ -317,7 +323,7 @@ function addTargetObject(){
     //rand pos 0-100
     var xPos = getRandomInt(425) -110;
     var yPos = getRandomInt(240) -125;
-
+    //big target
     room.setDiscProperties(1, {
     x: xPos,     // Position X
     y: yPos,          // Position Y
@@ -326,6 +332,13 @@ function addTargetObject(){
     invMass: 0,    // Infinite mass (static)
     bCoef: 1,   // Bounciness
   });
+    //small target
+    room.setDiscProperties(2, {
+    x: xPos,
+    y: yPos,
+    radius: 3.5,
+    });
+
 }
 
 const PORT = process.env.PORT || 3000;
