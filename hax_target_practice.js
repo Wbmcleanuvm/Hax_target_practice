@@ -9,7 +9,7 @@ const botName = "tumbot";
 const maxPlayers = 6;
 const roomPublic = true;
 const loc = { "code": "us", "lat": 40.74, "lon": -73.98 };
-let token = "thr1.AAAAAGlA0DBHwtL_lkWYyw.Fg0cYQp1iDw";
+let token = "thr1.AAAAAGlCRHFkbzoj9IIh1w.vYCvGttlMyE";
 
 const room = HBInit({roomName: roomName, maxPlayers: maxPlayers, public: roomPublic, playerName: botName, token: token, geo: loc});
 
@@ -26,7 +26,7 @@ var players;
 var teamS;
 var teamR;
 var bullseye = false;
-var highScore = [[41,"korai"],[39,"motion"],[0,0]];
+var highScore = [[42, "mute"],[41,"korai"],[39,"motion"]];
 var highStreak = [[30, "mute"],[18,"Aguero"],[0,0]];
 const Team = { SPECTATORS: 0, RED: 1, BLUE: 2 };
 var gameTimerResolve = null;
@@ -332,7 +332,7 @@ function addTargetObject(){
     invMass: 0,    // Infinite mass (static)
     bCoef: 1,   // Bounciness
   });
-    //small target
+    //smmall target
     room.setDiscProperties(2, {
     x: xPos,
     y: yPos,
