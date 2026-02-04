@@ -9,7 +9,7 @@ const botName = "tumbot";
 const maxPlayers = 6;
 const roomPublic = true;
 const loc = { "code": "us", "lat": 40.74, "lon": -73.98 };
-let token = "thr1.AAAAAGmCpv9sLHjsMog-5Q.UlaZNLeh4y0";
+let token = "thr1.AAAAAGmDy57t3xVE1v1E6w.2-IvPwCbjys";
 
 const room = HBInit({roomName: roomName, maxPlayers: maxPlayers, public: roomPublic, playerName: botName, token: token, geo: loc});
 
@@ -353,6 +353,7 @@ const PORT = process.env.PORT || 3000;
 
 
 });
+
 
 
 
